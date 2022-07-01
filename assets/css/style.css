@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+header{
+    background: #fbede0;
+    text-transform: uppercase;
+}
+
+header a{
+    color: black;
+}
+
+header a:hover{
+    color: black;
+}
+
+header li:hover{
+    background-color: #755758;
+    border-radius: 5%;
+}
+
+.btn{
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #755758;
+}
+
+/*MAIN*/
+
+.title__slider{
+    color: black;
+    text-transform: uppercase;
+}
+
+.card-body{
+    text-align: center;
+    text-transform: uppercase;
+}
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #fbede0;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terminos{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.box__footer h3{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fa-brands{
+    font-size: 20px;
+}
+
+.box__copy{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.box__copy p{
+    margin-top: 20px;
+}
+
+.box__copy hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+/*TERMINA FOOTER*/
